@@ -12,7 +12,6 @@ body {
 
 .content {
   flex: 1; /* займе все доступне місце */
-  padding: 40px;
 }
 
 button {
@@ -74,16 +73,19 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  /*flex-direction: row;
+  justify-content: space-between;*/
 }
 .header-nav {
   display: flex;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   align-items: center;
 }
 .header-logo-color {
@@ -97,8 +99,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   margin-right: 76px;
 }
 
@@ -108,8 +110,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .header-menu-link:hover,
@@ -119,25 +121,20 @@ img {
 
 .header-menu-list {
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
+  flex-direction: row; */
   gap: 40px;
-  padding-right: 332px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 .header-address {
   display: flex;
+  margin-left: auto;
 }
 .header-address-list {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-address-link {
   font-weight: 400;
@@ -192,7 +189,7 @@ img {
 /* =======VALUES======== */
 
 .values-container {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 .visually-hidden {
@@ -265,7 +262,7 @@ img {
 }
 
 .team-list-image {
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
   object-fit: cover;
   width: 100%;
 }
@@ -355,11 +352,11 @@ img {
   padding: 100px 0;
 }
 
-.footer-container {
+/* .footer-container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 40px;
-}
+} */
 
 /*.footer-text {
   max-width: 264px;
